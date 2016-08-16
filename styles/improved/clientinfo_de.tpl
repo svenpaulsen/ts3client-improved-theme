@@ -74,7 +74,7 @@ PLUGIN_INFO_DATA
   <table class="InfoFrame_Table">
     <tr>
       <td class="Bottom Label">Version:</td>
-      <td class="Bottom">%%CLIENT_VERSION_SHORT%% auf %%CLIENT_PLATFORM%% <img src="styles:/default_custom/media/platforms/%%CLIENT_PLATFORM%%.png" alt="" /></td>
+      <td class="Bottom">%%CLIENT_VERSION_SHORT%% auf %%CLIENT_PLATFORM%% <img src="styles:/improved/media/platforms/%%CLIENT_PLATFORM%%.png" alt="" /></td>
     </tr>
     <tr><td class="Label">Online seit:</td><td>%%CLIENT_CONNECTED_SINCE%%</td></tr>
     <tr><td class="Label">Beschreibung:</td><td>%%?CLIENT_DESCRIPTION%%</td></tr>

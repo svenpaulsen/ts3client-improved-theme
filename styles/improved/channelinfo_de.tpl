@@ -65,7 +65,7 @@ IMAGES_MAX_HEIGHT
       <td class="Label">Audio Codec:</td>
       <td>
         %%CHANNEL_CODEC%%
-        &nbsp;<img src="styles:/default_custom/media/lock.png" alt="%%?CHANNEL_VOICE_DATA_ENCRYPTED_FLAG%%" />
+        &nbsp;<img src="styles:/improved/media/lock.png" alt="%%?CHANNEL_VOICE_DATA_ENCRYPTED_FLAG%%" />
       </td>
     </tr>
     <tr><td class="Label">Eigenschaften:</td><td class="Highlight">%%?CHANNEL_FLAGS%%</td></tr>

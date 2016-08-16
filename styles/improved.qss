@@ -53,7 +53,7 @@ QMainWindow #ServerTreeView {
 
 QMainWindow #InfoFrame {
   background-color: palette(base);
-  background-image: url('styles:default_custom/media/logo.png');
+  background-image: url('styles:improved/media/logo.png');
   background-repeat: none;
   background-position: top right;
   background-attachment: fixed;
@@ -61,7 +61,7 @@ QMainWindow #InfoFrame {
 
 QMainWindow #ChatTab {
   background-color: palette(base);
-  background-image: url('styles:default_custom/media/chatlog.png');
+  background-image: url('styles:improved/media/chatlog.png');
   background-repeat: none;
   background-position: bottom right;
   background-attachment: fixed;

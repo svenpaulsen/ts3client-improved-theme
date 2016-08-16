@@ -53,7 +53,7 @@ SERVER_REFRESH_ACTIVE
   <table class="InfoFrame_Table">
     <tr>
       <td class="Bottom Label">Version:</td>
-      <td class="Bottom">%%SERVER_VERSION_SHORT%% auf %%SERVER_PLATFORM%% <img src="styles:/default_custom/media/platforms/%%SERVER_PLATFORM%%.png" alt="" /></td>
+      <td class="Bottom">%%SERVER_VERSION_SHORT%% auf %%SERVER_PLATFORM%% <img src="styles:/improved/media/platforms/%%SERVER_PLATFORM%%.png" alt="" /></td>
     </tr>
     <tr>
       <td class="Label">Lizenz:</td>
