@@ -1,0 +1,158 @@
+/*
+ * TeamSpeak 3 Client Improved Default Theme
+ *
+ * Copyright (c) Sven 'ScP' Paulsen
+ */
+
+/* @group Global Elements */
+ 
+QTreeView {
+  qproperty-alternatingRowColors: 1;
+  qproperty-uniformRowHeights: 0;
+  qproperty-indentation: 18;
+  qproperty-animated: 1;
+}
+
+QTableView {
+  qproperty-alternatingRowColors: 1;
+}
+
+QDialogButtonBox {
+  dialogbuttonbox-buttons-have-icons: 1;
+}
+
+QMenuBar QMenu,
+BookmarksMenu {
+  qproperty-tearOffEnabled: 1;
+}
+
+QTornOffMenu {
+  qproperty-tearOffEnabled: 0;
+  qproperty-windowTitle: 'TeamSpeak 3';
+}
+
+#HeadlineLabel,
+#bookmarksTopFrame {
+  background-color: qradialgradient(
+   cx: 0.7, cy: -1.8,
+   fx: 0.7, fy: 0,
+   radius: 2.2, 
+   stop: 0 #19385E,
+   stop: 1 #00234D);
+}
+
+#selectedActionsTreeView {
+  qproperty-uniformRowHeights: 1;
+}
+ 
+/* @group Main Window Elements */
+
+QMainWindow #ServerTreeView {
+  qproperty-rootIsDecorated: 0;
+}
+
+QMainWindow #InfoFrame {
+  background-color: palette(base);
+  background-image: url('styles:default_custom/media/logo.png');
+  background-repeat: none;
+  background-position: top right;
+  background-attachment: fixed;
+}
+
+QMainWindow #ChatTab {
+  background-color: palette(base);
+  background-image: url('styles:default_custom/media/chatlog.png');
+  background-repeat: none;
+  background-position: bottom right;
+  background-attachment: fixed;
+}
+
+/* @end */
+
+/* @group Chat Line Elements */
+
+QTextEdit#ChatLineEdit[helpTextVisible="true"]  {
+  color: #909090;
+}
+
+QTextEdit#ChatLineEdit[helpTextVisible="false"] {
+  color: normal;
+}
+
+/* @end */
+
+/* @group Server Tab Bar Elements */
+
+ServerViewManager ImprovedTabBar {
+  qproperty-documentMode: 0;
+  qproperty-expanding: 0;
+  qproperty-drawBase: 1;
+}
+
+/* @end */
+
+/* @group Chat Tab Bar Elements */
+
+ChatTabWidget ImprovedTabBar {
+  qproperty-documentMode: 0;
+  qproperty-expanding: 0;
+  qproperty-drawBase: 1;
+}
+
+/* @end */
+
+/* @group Status Bar Elements */
+
+QStatusBar QLabel {
+  padding: 0px 3px;
+  border: 0px;
+}
+
+QStatusBar::item {
+  border: 0px;
+}
+
+QStatusBar QLabel#NewsLeftLabel {
+  padding-right: 6px;
+}
+
+/* @end */
+
+/* @group Connection Info Dialog Elements */
+
+ConnectionInfoDialog #avatarLabel {
+  background-color: palette(base);
+}
+
+/* @end */
+
+/* @group Options Dialog Elements */
+
+#OptionsDialog QLabel#OptionsHeadlineTitleLabel {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  color: palette(bright-text);
+}
+
+#OptionsDialog QLabel#OptionsHeadlineDescriptionLabel {
+  padding-left: 10px;
+  color: palette(bright-text);
+}
+
+#SubscriptionsDialog QTreeView {
+  qproperty-rootIsDecorated: 0;
+}
+
+/* @end */
+
+/* @group About Dialog Elements */
+
+QLabel#appNameLabel {
+  color: #455573;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* @end */

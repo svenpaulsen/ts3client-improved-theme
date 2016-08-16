@@ -1,0 +1,18 @@
+/*
+ * TeamSpeak 3 Client Improved Default Theme
+ * Special file for macOS, loaded in addition to global default_custom.qss stylesheet
+ *
+ * Copyright (c) Sven 'ScP' Paulsen
+ */
+ 
+/* @group macOS Specific Elements */
+
+QMainWindow #InfoFrame {
+  font-size: 12pt;
+}
+
+ImprovedTabBarCloseButton {
+  border: 0px transparent;
+}
+
+/* @end */

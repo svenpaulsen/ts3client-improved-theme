@@ -1,0 +1,18 @@
+/*
+ * TeamSpeak 3 Client Improved Default Theme
+ * Special file for Linux, loaded in addition to global default_custom.qss stylesheet
+ *
+ * Copyright (c) Sven 'ScP' Paulsen
+ */
+ 
+/* @group Linux Specific Elements */
+
+QMainWindow #InfoFrame {
+  font-size: 10pt;
+}
+
+QMainWindow #ChatTab {
+  font-size: 10pt;
+}
+
+/* @end */
