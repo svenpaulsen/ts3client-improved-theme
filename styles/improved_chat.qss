@@ -20,9 +20,10 @@
  *      <img src="...">
  *      <span class="{SECONDARY_CLASS}">...</span>
  *      <a class="{SECONDARY_CLASS}" href="...">...</a>:
- *      <spanclass="{SECONDARY_CLASS}">
+ *      <span class="{SECONDARY_CLASS}">
  *        ...
  *      </span>
+ *    </span>
  *  </p>
  *
  * ===
