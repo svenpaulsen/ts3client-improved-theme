@@ -20,7 +20,7 @@ This theme contains the following changes:
 - Added server and channel icons to infoframe templates
 - Added tiny icons to indicate server and client platform
 - Added tiny icons to indicate whether the channel codec is encrypted
-- Added unified title and toolbar on macOS
+- Added unified title and toolbar (macOS)
 - Clicking the name of a server, channel or client in infoframe will now open the appropriate context menu
 
 ## Requirements
