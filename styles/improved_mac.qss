@@ -7,6 +7,10 @@
  
 /* @group macOS Specific Elements */
 
+QMainWindow {
+  qproperty-unifiedTitleAndToolBarOnMac: 1;
+}
+
 QMainWindow #InfoFrame {
   font-size: 12pt;
 }
