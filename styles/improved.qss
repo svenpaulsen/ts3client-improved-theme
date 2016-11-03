@@ -31,18 +31,21 @@ QTornOffMenu {
   qproperty-windowTitle: 'TeamSpeak 3';
 }
 
-#HeadlineLabel,
-#bookmarksTopFrame {
-  background-color: qradialgradient(
-   cx: 0.7, cy: -1.8,
-   fx: 0.7, fy: 0,
-   radius: 2.2, 
-   stop: 0 #19385E,
-   stop: 1 #00234D);
-}
-
 #selectedActionsTreeView {
   qproperty-uniformRowHeights: 1;
+}
+
+#bookmarksBanner,
+#identitiesBanner,
+#accountLoginBanner,
+#accountCreateBanner {
+  background-color: qradialgradient(cx: 0.7, cy: -1.8, fx: 0.7, fy: 0, radius: 2.2, stop: 0 #19385E, stop: 1 #00234D);
+  color: palette(bright-text);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px 5px;
 }
  
 /* @group Main Window Elements */
@@ -127,6 +130,10 @@ ConnectionInfoDialog #avatarLabel {
 /* @end */
 
 /* @group Options Dialog Elements */
+
+#OptionsDialog #HeadlineLabel {
+  background-color: qradialgradient(cx: 0.7, cy: -1.8, fx: 0.7, fy: 0, radius: 2.2, stop: 0 #19385E, stop: 1 #00234D);
+}
 
 #OptionsDialog QLabel#OptionsHeadlineTitleLabel {
   text-transform: uppercase;
