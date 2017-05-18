@@ -42,8 +42,7 @@ SERVER_REFRESH_ACTIVE
     <img src="%%?SERVER_ICON%%" alt="
     <img src='iconpath:SERVER_GREEN' alt='' width='16' height='16' />
     %%?SERVER_ICON%%" title="Server Icon" width="16" height="16" />
-    &nbsp;
-    <a href="channelid://0" class="TextMessage_ServerLink">%%SERVER_NAME%%</a>
+    <a href="channelid://0" class="TextMessage_ServerLink">&nbsp;%%SERVER_NAME%%&nbsp;</a>
   </div>
 
   <hr />

@@ -51,8 +51,7 @@ IMAGES_MAX_HEIGHT
     <img src="%%?CHANNEL_ICON%%" alt="
     <img src='iconpath:CHANNEL_GREEN' alt='' width='16' height='16' />
     %%?CHANNEL_ICON%%" title="Channel Icon" width="16" height="16" />
-    &nbsp;
-    <a href="channelid://%%CHANNEL_ID%%" class="TextMessage_ChannelLink">%%CHANNEL_NAME%%</a>
+    <a href="channelid://%%CHANNEL_ID%%" class="TextMessage_ChannelLink">&nbsp;%%CHANNEL_NAME%%&nbsp;</a>
   </div>
 
   <hr />
