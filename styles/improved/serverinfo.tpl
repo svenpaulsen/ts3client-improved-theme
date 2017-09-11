@@ -96,8 +96,8 @@ SERVER_REFRESH_ICON
     <tr><td>
       %%SERVER_REFRESH_ICON%%
       &nbsp;
-      <a class="Inactive" href="%%?SERVER_REFRESH_INACTIVE%%">Refresh</a>
-      <a class="Active" href="%%?SERVER_REFRESH_ACTIVE%%">Refresh</a>
+      <a class="Inactive" href="%%?SERVER_REFRESH_INACTIVE%%">%%?TR_SERVER_REFRESH_INACTIVE%%</a>
+      <a class="Active" href="%%?SERVER_REFRESH_ACTIVE%%">%%?TR_SERVER_REFRESH_ACTIVE%%</a>
     </td></tr>
   </table>
 
