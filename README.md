@@ -25,7 +25,7 @@ This theme contains the following changes:
 
 ## Requirements
 
-To use this theme you'll need version **3.0.13**, or any newer client release.
+To use this theme you'll need version **3.1.5**, or any newer client release.
 
 ## How to Install
 
