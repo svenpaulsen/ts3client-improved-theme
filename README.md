@@ -29,7 +29,7 @@ To use this theme you'll need version **3.1.5**, or any newer client release.
 
 ## How to Install
 
-The when using the **.ts3_style** package, the TeamSpeak 3 Client should automatically extract all files to the corresponding directories. For a manual installation, copy the **.qss** files and **improved** folder into one of the following directories:
+When using the **.ts3_style** package, the TeamSpeak 3 Client should automatically extract all files to the corresponding directories. For a manual installation, copy the **.qss** files and **improved** folder into one of the following directories:
 
 ### Windows
 `%%APPDATA%%\TS3Client\styles`
