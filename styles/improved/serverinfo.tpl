@@ -65,6 +65,7 @@ SERVER_REFRESH_ICON
 	    :%%?SERVER_PORT%%
   	</td>
     </tr>
+    <tr><td class="Label">%%TR_SERVER_NICKNAMES%%:</td><td>%%?SERVER_NICKNAMES%%</td></tr>
     <tr>
       <td class="Label">%%TR_SERVER_UPTIME%%:</td>
       <td>%%SERVER_UPTIME%%</td>
