@@ -8,7 +8,7 @@
 /* @group macOS Specific Elements */
 
 QMainWindow {
-  qproperty-unifiedTitleAndToolBarOnMac: 1;
+  qproperty-unifiedTitleAndToolBarOnMac: 0;
 }
 
 QMainWindow #InfoFrame {
