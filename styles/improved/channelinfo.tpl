@@ -19,6 +19,7 @@ Options (remove the "#" to enable):
 
 Replacable variables for channels:
 CHANNEL_NAME
+CHANNEL_NAME_PLAIN
 CHANNEL_ID
 CHANNEL_ICON
 CHANNEL_ICON_SCALED
@@ -72,6 +73,18 @@ IMAGES_MAX_HEIGHT
     <tr><td class="Label">%%TR_CHANNEL_CLIENTS_COUNT%%:</td><td>%%?CHANNEL_CLIENTS_COUNT%% / %%CHANNEL_FLAG_MAXCLIENTS%%</td></tr>
     <tr><td class="Label">%%TR_CHANNEL_MODERATED%%:</td><td class="Important">%%?TR_YES%%</td></tr>
     %%?PLUGIN_INFO_DATA%%
+  </table>
+
+  <br />
+
+  <!-- begin file browser table -->
+
+  <table class="InfoFrame_Table">
+    <tr><td>
+      %%FILE_BROWSER_ICON%%
+      &nbsp;
+      <a class="Active" href="%%?OPEN_FILE_BROWSER%%">%%?TR_OPEN_FILE_BROWSER%%</a>
+    </td></tr>
   </table>
 
   <br />
