@@ -2,6 +2,14 @@
  * TeamSpeak 3 Client Improved Default Theme
  *
  * Copyright (c) Sven 'ScP' Paulsen
+ *
+ * Global overrides for QPalette::ColorRole values:
+ * QPalette::Link = #1C82CC;
+ *
+ * Global overrides for specific highlight colors:
+ * CustomColor::ClientFriend    = #00A22F;
+ * CustomColor::ClientBlocked   = #CD0000;
+ * CustomColor::ClientRecording = #F06500;
  */
 
 /* @group Global Elements */
@@ -39,7 +47,8 @@ QTornOffMenu {
 #identitiesBanner,
 #accountLoginBanner,
 #accountCreateBanner {
-  background-color: qradialgradient(cx: 0.7, cy: -1.8, fx: 0.7, fy: 0, radius: 2.2, stop: 0 #19385E, stop: 1 #00234D);
+  background-color: #1C2538;
+  background-image: url('styles:improved/media/hexes.png');
   color: palette(bright-text);
   text-transform: uppercase;
   font-weight: bold;
@@ -132,7 +141,8 @@ ConnectionInfoDialog #avatarLabel {
 /* @group Options Dialog Elements */
 
 #OptionsDialog #HeadlineLabel {
-  background-color: qradialgradient(cx: 0.7, cy: -1.8, fx: 0.7, fy: 0, radius: 2.2, stop: 0 #19385E, stop: 1 #00234D);
+  background-color: #1C2538;
+  background-image: url('styles:improved/media/hexes.png');
 }
 
 #OptionsDialog QLabel#OptionsHeadlineTitleLabel {
@@ -157,7 +167,7 @@ ConnectionInfoDialog #avatarLabel {
 /* @group About Dialog Elements */
 
 QLabel#appNameLabel {
-  color: #455573;
+  color: #1C2538;
   font-weight: bold;
   font-size: 24px;
 }
