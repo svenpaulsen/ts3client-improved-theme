@@ -1,0 +1,24 @@
+/*
+ * TeamSpeak 3 Client Improved Default Theme
+ * Special file for macOS in dark mode, loaded in addition to global default.qss stylesheet
+ *
+ * Copyright (c) Sven 'ScP' Paulsen
+ *
+ * Global overrides for QPalette::ColorRole values:
+ * QPalette::AlternateBase = #333;
+ */
+
+QMenu,
+QHeaderView,
+QPushButton,
+QToolButton,
+ImprovedTabBar::tab,
+#bookmarksBanner,
+#identitiesBanner,
+#accountLoginBanner,
+#accountCreateBanner,
+#OptionsDialog QLabel#OptionsHeadlineTitleLabel,
+#OptionsDialog QLabel#OptionsHeadlineDescriptionLabel,
+QLabel#appNameLabel {
+	color: white;
+}

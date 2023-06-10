@@ -1,0 +1,87 @@
+/*
+ * TeamSpeak 3 Default Qt StyleSheet
+ * Special file for ChatLog in dark mode, loaded in addition to global default.qss stylesheet
+ *
+ * Copyright (c) TeamSpeak Systems GmbH
+ */
+ 
+.TextMessage_UserLink,
+.TextMessage_OfflineLink,
+.TextMessage_ChannelLink,
+.TextMessage_ServerLink {
+  color: #006ad2;
+}
+
+.TextMessage_Welcome,
+.TextMessage_HostMessage,
+.TextMessage_Poke  {
+  color: #11de4d;
+}
+
+.TextMessage_ClientDropped,
+.TextMessage_ClientKicked,
+.TextMessage_ClientBanned {
+  color: #ec2124;
+}
+
+.TextMessage_HostName,
+.TextMessage_Normal,
+.TextMessage_Connected,
+.TextMessage_ClientConnected,
+.TextMessage_ClientJoined,
+.TextMessage_Disconnected,
+.TextMessage_ClientDisconnected,
+.TextMessage_ClientSwitched,
+.TextMessage_ClientLeft,
+.TextMessage_ChannelCreated,
+.TextMessage_ChannelDeleted,
+.TextMessage_ChannelEdited,
+.TextMessage_ChannelMoved,
+.TextMessage_ServerEdited,
+.TextMessage_GroupAssigned,
+.TextMessage_GroupRevoked,
+.TextMessage_TalkPowerAssigned,
+.TextMessage_TalkPowerRevoked,
+.TextMessage_TalkPowerRequested,
+.TextMessage_Time {
+  color: #83acd2;
+}
+
+.TextMessage_BeginHistory,
+.TextMessage_EndHistory {
+  color: #bcbcbc;
+}
+
+.TextMessage_ServerError {
+  color: #f73c3f;
+}
+
+.InfoFrame_Title .TextMessage_UserLink,
+.InfoFrame_Title .TextMessage_ChannelLink,
+.InfoFrame_Title .TextMessage_ServerLink {
+  color: lightsteelblue;
+}
+
+.InfoFrame_Title .InfoFrame_CustomNick {
+  color: palette(link);
+}
+
+.Highlight,
+.InfoFrame_Table td.Highlight {
+  color: palette(link);
+}
+
+.Important,
+.InfoFrame_Table td.Important {
+  color: red;
+}
+
+.Active,
+.InfoFrame_Table td.Active {
+  color: lightgreen;
+}
+
+.Inactive,
+.InfoFrame_Table td.Inactive {
+  color: lightgray;
+}
