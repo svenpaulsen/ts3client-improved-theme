@@ -146,10 +146,9 @@ ConnectionInfoDialog #avatarLabel {
 }
 
 #OptionsDialog QLabel#OptionsHeadlineTitleLabel {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: bold;
-  font-style: italic;
-  font-size: 18px;
+  font: 24px 'TeamSpeak 2020';
   color: palette(bright-text);
 }
 
@@ -167,9 +166,10 @@ ConnectionInfoDialog #avatarLabel {
 /* @group About Dialog Elements */
 
 QLabel#appNameLabel {
-  color: #1C2538;
+  color: #364B85;
+  text-transform: lowercase;
+  font: 38px 'TeamSpeak 2020';
   font-weight: bold;
-  font-size: 24px;
 }
 
 /* @end */
