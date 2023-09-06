@@ -22,3 +22,7 @@ ImprovedTabBar::tab,
 QLabel#appNameLabel {
 	color: white;
 }
+
+QMenu::item:disabled {
+	color: gray;
+}
